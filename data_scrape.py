@@ -7,6 +7,7 @@ from utils.seo_element_fetching import (
 )
 from utils.status_checking import fetch_urls, check_url_status
 
+
 def main():
     """
     Main function to test location generation and scrape meta elements, URLs, and statuses
@@ -36,8 +37,6 @@ def main():
 
     # Fetch and print all anchor tags and image tags (URLs)
     anchor_urls, image_urls = fetch_urls(base_url)
-
-  
 
     # Optionally, check the status of all valid URLs (anchor and image)
     all_urls = anchor_urls + image_urls
