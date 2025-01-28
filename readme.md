@@ -21,6 +21,17 @@ git clone https://github.com/samiya1859/seo_url_scraping.git
 ```bash
 cd seo_url_scraping
 ```
+### create Virtual Environment
+For Linux
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+For Windows 
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
 ### Install dependencies
 ```bash
 pip install -r requirements.txt
