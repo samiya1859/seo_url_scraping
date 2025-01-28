@@ -49,3 +49,13 @@ Scrapes all anchor (<a>) and image (<img>) URLs from the webpage at the given UR
 
 - check_url_status(urls)
 Takes a list of URLs and checks the HTTP status code for each. It returns a list of status messages indicating whether the URL is reachable or failed to load.
+
+
+### Key Sections:
+1. **Project Description**: Provides an overview of the project's functionality (scraping metadata and URLs, checking their validity).
+2. **Requirements**: Instructions on cloning the project, navigating to the directory, and installing dependencies from `requirements.txt`.
+3. **Functions**: Describes all the functions in the project and what they do.
+4. **Usage**: Provides an example code snippet showing how to use the functions.
+5. **License**: The project is licensed under the MIT License.
+
+Feel free to modify any sections further to match your project’s specifics or preferences!
